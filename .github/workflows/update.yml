@@ -1,0 +1,13 @@
+name: CI
+on: [push]
+
+jobs:
+  update:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install tools
+        run: |
+          choco install kdash
+          kdash -h
