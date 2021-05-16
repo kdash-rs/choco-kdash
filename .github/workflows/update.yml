@@ -1,5 +1,7 @@
 name: CI
-on: [push]
+on:
+  push:
+    branches: main
 
 jobs:
   update:
@@ -7,7 +9,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install tools
+      - name: Build & publish nupkg
         run: |
-          choco install kdash
-          kdash -h
+          choco pack
+          echo y | choco install kdash -dv -s .
+          FOR /F "delims=" %i IN ('kdash -V') DO set version=%i
+          SET PACKAGE_NAME=%version: =.%
+          choco push %PACKAGE_NAME%.nupkg -s https://push.chocolatey.org/ --api-key ${{ secrets.CHOCO_API_KEY }};
