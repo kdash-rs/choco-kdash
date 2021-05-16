@@ -20,17 +20,17 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>kdash</id>
-    <version>0.0.6</version>
+    <version>0.0.9</version>
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>kdash</title>
+    <title>KDash</title>
     <authors>Deepu K Sasidharan</authors>
     <projectUrl>https://github.com/kdash-rs/kdash</projectUrl>
-    <licenseUrl>https://github.com/kdash-rs/kdash/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/kdash-rs/kdash/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/kdash-rs/kdash</projectSourceUrl>
-    <docsUrl>https://github.com/kdash-rs/kdash/blob/master/README.md</docsUrl>
+    <docsUrl>https://github.com/kdash-rs/kdash/blob/main/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/kdash-rs/kdash/issues</bugTrackerUrl>
     <tags>cli cross-platform terminal k8s tui monitoring kdash kubernetes rust</tags>
     <summary>A fast and simple dashboard for Kubernetes written in Rust.</summary>
@@ -40,10 +40,10 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     **Usage**
     To use, run `kdash` in a terminal.
     
-    For more [documentation and usage](https://github.com/kdash-rs/kdash/blob/master/README.md), see the [official repo](https://github.com/kdash-rs/kdash).
+    For more [documentation and usage](https://github.com/kdash-rs/kdash/blob/main/README.md), see the [official repo](https://github.com/kdash-rs/kdash).
     
     </description>
-    <releaseNotes>https://github.com/kdash-rs/kdash/releases/tag/0.0.6/</releaseNotes>
+    <releaseNotes>https://github.com/kdash-rs/kdash/releases/tag/v0.0.9/</releaseNotes>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
