@@ -9,7 +9,7 @@
 
 A simple terminal dashboard for Kubernetes built with Rust
 
-**This repo holds choco files for for [KDash](https://github.com/kdash-rs/kdash)**
+**This repo holds choco files for [KDash](https://github.com/kdash-rs/kdash)**
 
 # Install
 
