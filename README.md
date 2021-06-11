@@ -19,7 +19,7 @@ Choco package located [here](https://community.chocolatey.org/packages/kdash). S
 choco install kdash
 
 # Version number may be required for newer releases, if available:
-choco install kdash --version=0.0.6
+choco install kdash --version=0.0.9
 ```
 
 # Test and Deploy
