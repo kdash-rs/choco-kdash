@@ -2,8 +2,8 @@ $ErrorActionPreference = 'Stop';
 
 $PackageName = 'kdash'
 $toolsDir    = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64       = 'https://github.com/kdash-rs/kdash/releases/download/v0.1.2/kdash-windows.tar.gz'
-$checksum64  = 'd29e55f7a36c1d175434b80104f50f250bd4f7140ab0c5861f8183f6fa8179d0'
+$url64       = 'https://github.com/kdash-rs/kdash/releases/download/v0.2.0/kdash-windows.tar.gz'
+$checksum64  = '32254a2fc628d239fc4ce20747d46828e05ee6dc408b71a2c58a7beccdf032b8'
 
 $packageArgs = @{
   packageName   = $packageName
