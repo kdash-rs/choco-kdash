@@ -20,7 +20,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>kdash</id>
-    <version>0.5.0</version>
+    <version>0.6.0</version>
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
@@ -43,7 +43,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     For more [documentation and usage](https://github.com/kdash-rs/kdash/blob/main/README.md), see the [official repo](https://github.com/kdash-rs/kdash).
     
     </description>
-    <releaseNotes>https://github.com/kdash-rs/kdash/releases/tag/v0.5.0/</releaseNotes>
+    <releaseNotes>https://github.com/kdash-rs/kdash/releases/tag/v0.6.0/</releaseNotes>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
